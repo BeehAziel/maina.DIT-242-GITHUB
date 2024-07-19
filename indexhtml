@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 <body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KWUST</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js" defer></script>
+    </head>
 
 <h1>This is my university.</h1>
 <ol>Home</ol>
@@ -14,6 +21,10 @@
        Kiriri Women's University is the only women's university in east and southern Africa.
         Its main campus is located in Mwihoko, Githurai in the outskirt of Nairobi. Kiriri has no male students. It offers B.Science degrees in mathematics (actuarial, pure, statistics), computer science and business administration, as well as diplomas and certificates.</p>
 <h3>Departments</h3>
+<button onclick="toggleDepartments()">Toggle Departments</button>
+<div id="departments-section">
+    <ul>
+
 <li>mathematics</li>
 <li>Accounting</li>
 <li>Human resource</li>
@@ -21,6 +32,8 @@
 <li>Hospitality</li>
 <li>Computer sciences and I.T</li>
 <li>Education</li>
+</ul>
+</div>
 <h3>Contact us</h3>
 <p><ul>Kiriri Women's University of Science & Technology
     off Thika Road
